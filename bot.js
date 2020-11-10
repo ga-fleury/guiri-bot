@@ -17,7 +17,13 @@ client.on('message', message => {
   if (message.content === 'guiribanho') {
     message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/751300367421276231/image0.jpg');
   }
+  if (message.content === 'Guiribanho') {
+    message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/751300367421276231/image0.jpg');
+  }
   if (message.content === 'guirikid') {
     message.channel.send('https://cdn.discordapp.com/attachments/745550754109980713/775632995498590259/unknown.png');
+  }
+  if (message.content === 'guirifail') {
+    client.destroy();
   }
 });
