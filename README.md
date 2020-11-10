@@ -1,4 +1,4 @@
-# Foobar
+# GuiriBot
 
 Guiribot é um bot que responde suas perguntas da mesma maneira que @guirichess responderia
 
