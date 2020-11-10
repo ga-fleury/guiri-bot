@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const botToken = require('./botoken');
-let bot = botToken.bot;
+// const botToken = require('./botoken');
+// let bot = botToken.bot;
 
-client.login(bot);
+client.login(process.env.TOKEN);
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
