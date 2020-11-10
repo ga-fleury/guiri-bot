@@ -12,6 +12,6 @@ client.on('ready', () => {
 
 client.on('message', message => {
   if (message.mentions.has(client.user.id)) {
-    message.channel.send(' ```~ n ã ã o  m a n o ~  ಠ_ಠ  😩  ``` ');
+    message.channel.send('😩😩😩 ~ n ã ã o  m a n o ~  ಠ_ಠ');
   }
 });
