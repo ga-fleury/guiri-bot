@@ -2,6 +2,11 @@
 
 Guiribot é um bot que responde suas perguntas da mesma maneira que @guirichess responderia
 
+## TODO
+
+- [ ] Fazer o bot responder com áudio
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
