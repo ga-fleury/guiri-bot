@@ -27,6 +27,12 @@ client.on('message', message => {
   if (message.content === 'guirigirl' || message.content === 'Guirigirl') {
     message.channel.send('https://scontent.fsjk2-1.fna.fbcdn.net/v/t1.0-9/58381153_112238396647221_4004605400593727488_n.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_ohc=2hIrNu7F8kQAX9FVg8N&_nc_ht=scontent.fsjk2-1.fna&oh=233e6597ed290f872c4796635e8ef5c3&oe=5FD6C43D');
   }
+  if (message.content === 'guiriaçai' || message.content === 'Guiriaçai') {
+    message.channel.send('https://media.discordapp.net/attachments/704138130130862081/777380736579010560/922152_526940814036057_1364107136_o.png?width=1666&height=1250');
+  }
+  if (message.content === 'guirisexy' || message.content === 'Guirisexy') {
+    message.channel.send('https://cdn.discordapp.com/attachments/745546584623939685/777380863301910560/Screenshot_2020-11-15-00-53-46-862_com.whatsapp.jpg');
+  }
   if (message.content === 'guirikid' || message.content === 'Guirikid') {
     message.channel.send('https://cdn.discordapp.com/attachments/745550754109980713/775632995498590259/unknown.png');
   }
