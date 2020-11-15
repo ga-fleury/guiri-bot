@@ -31,7 +31,7 @@ client.on('message', message => {
     message.channel.send('https://media.discordapp.net/attachments/704138130130862081/777380736579010560/922152_526940814036057_1364107136_o.png?width=1666&height=1250');
   }
   if (message.content === 'guirisexy' || message.content === 'Guirisexy') {
-    message.channel.send('https://cdn.discordapp.com/attachments/745546584623939685/777380863301910560/Screenshot_2020-11-15-00-53-46-862_com.whatsapp.jpg');
+    message.channel.send('https://media.discordapp.net/attachments/520649897020489728/769807807578898462/unknown.png');
   }
   if (message.content === 'guirikid' || message.content === 'Guirikid') {
     message.channel.send('https://cdn.discordapp.com/attachments/745550754109980713/775632995498590259/unknown.png');
