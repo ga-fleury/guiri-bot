@@ -36,6 +36,9 @@ client.on('message', message => {
   if (message.content === 'guirikid' || message.content === 'Guirikid') {
     message.channel.send('https://cdn.discordapp.com/attachments/745550754109980713/775632995498590259/unknown.png');
   }
+  if (message.mentions.has(client.user.id) && message.content.includes('casa')) {
+    message.channel.send('mas cola ai, rua nibe perobelli, 114');
+  }
   if (message.content === 'guirichess' || message.content === 'Guirichess') {
     message.channel.send('https://scontent.fcgh39-1.fna.fbcdn.net/v/t31.0-8/28164458_1884408288267490_6427963564011623185_o.jpg?_nc_cat=102&ccb=2&_nc_sid=0debeb&_nc_ohc=CEIHeRySprAAX-idk2_&_nc_ht=scontent.fcgh39-1.fna&oh=0190ab9b0e4c1299712e869cf266f609&oe=5FD023BA');
   }
