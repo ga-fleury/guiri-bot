@@ -28,6 +28,10 @@ client.on('message', message => {
     message.channel.send('Yea, just a lil dude tryin to make this world funnier with some crazy shit :p Btw i think that i prefer be called as "LMY" :3');
   }
   
+  if (message.content === 'guirihelp' || message.content === 'Guirihelp') {
+    message.channel.send('Esse é o Guiribot, o bot do Guiri.'\n'você pode brincar comigo usando as palavras: Guiritaro19, Guirichess, Guiribanho, Guirikid, Guirisexy, Guirigirl e Guiriaçai.'/n'e pra saber o meu endereço é só falar o meu nome e a palavra casa');
+  }
+  
   if (message.mentions.has(client.user.id) && message.content.includes('banho')) {
     message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/751300367421276231/image0.jpg');
   }
