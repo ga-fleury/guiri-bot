@@ -14,6 +14,7 @@ client.on('message', message => {
   if (message.mentions.has(client.user.id)) {
     message.channel.send('~ n ã ã o  m a n o ~  ಠ_ಠ');
   }
+  
   if (message.content === 'guiribanho' || message.content === 'Guiribanho') {
     message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/751300367421276231/image0.jpg');
   }
@@ -29,6 +30,9 @@ client.on('message', message => {
  
   if (message.content === 'guirigirl' || message.content === 'Guirigirl') {
     message.channel.send('https://scontent.fsjk2-1.fna.fbcdn.net/v/t1.0-9/58381153_112238396647221_4004605400593727488_n.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_ohc=2hIrNu7F8kQAX9FVg8N&_nc_ht=scontent.fsjk2-1.fna&oh=233e6597ed290f872c4796635e8ef5c3&oe=5FD6C43D');
+  }
+  if (message.content === 'guirihelp' || message.content === 'Guirihelp') {
+    message.channel.send('Esse é o Guiribot, o bot do Guiri.'\n'você pode brincar comigo usando as palavras: Guiritaro19, Guirichess, Guiribanho, Guirikid, Guirisexy, Guirigirl e Guiriaçai.'/n'e pra saber o meu endereço é só falar o meu nome e a palavra casa');
   }
   if (message.content === 'guiriaçai' || message.content === 'Guiriaçai') {
     message.channel.send('https://media.discordapp.net/attachments/704138130130862081/777380736579010560/922152_526940814036057_1364107136_o.png?width=1666&height=1250');
