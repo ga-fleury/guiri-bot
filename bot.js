@@ -29,7 +29,7 @@ client.on('message', message => {
   }
   
   if (message.content === 'guirihelp' || message.content === 'Guirihelp') {
-    message.channel.send('Esse é o Guiribot, o bot do Guiri.\nVocê pode brincar comigo usando as palavras: \n.Guiritaro19 \n.Guirichess \n.Guiribanho \n.Guirikid \n.Guirisexy \n.Guirigirl \n.Guiriaçai.\nE pra saber o meu endereço é só falar o meu nome e a palavra casa.');
+    message.channel.send('Esse é o Guiribot, o bot do Guiri.\nVocê pode brincar comigo usando as palavras: \nGuiritaro19 \nGuirichess \nGuiribanho \nGuirikid \nGuirisexy \nGuirigirl \nGuiriaçai.\nE pra saber o meu endereço é só falar o meu @nome e a palavra casa.');
   }
   
   if (message.mentions.has(client.user.id) && message.content.includes('banho')) {
