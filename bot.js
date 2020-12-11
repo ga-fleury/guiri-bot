@@ -10,6 +10,8 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
+var guiri = ["Guiritaro19", "Guirichess", "Guiribanho", "Guirikid", "Guirisexy", "Guirigirl", "Guiriaçai", "Guiripai"];
+
 client.on('message', message => {
   
   if (message.mentions.has(client.user.id)) {
@@ -29,7 +31,7 @@ client.on('message', message => {
   }
   
   if (message.content === 'guirihelp' || message.content === 'Guirihelp') {
-    message.channel.send('Esse é o Guiribot, o bot do Guiri.\nVocê pode brincar comigo usando as palavras: \nGuiritaro19 \nGuirichess \nGuiribanho \nGuirikid \nGuirisexy \nGuirigirl \nGuiriaçai.\nE pra saber o meu endereço é só falar o meu @nome e a palavra casa na mesma frase.');
+    message.channel.send('Esse é o Guiribot, o bot do Guiri.\nVocê pode brincar comigo usando as palavras:', guiri, '\nE pra saber o meu endereço é só falar o meu @nome e a palavra casa na mesma frase.');
   }
   
   if (message.mentions.has(client.user.id) && message.content.includes('banho')) {
