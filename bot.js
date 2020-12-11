@@ -27,7 +27,7 @@ client.on('message', message => {
   }
   
   if (message.content === 'guiritaro19' || message.content === 'Guiritaro19') {
-    message.channel.send('Yea, just a lil dude tryin to make this world funnier with some crazy shit :p Btw i think that i prefer be called as "LMY" :3');
+    message.channel.send('Yea, just a lil dude tryin to make this world funnier with some crazy shit :p \nBtw i think that i prefer be called as "LMY" :3');
   }
   
   if (message.content === 'guirihelp' || message.content === 'Guirihelp') {
