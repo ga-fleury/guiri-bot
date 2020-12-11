@@ -10,7 +10,7 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-var guiri = [" Guiritaro19", " Guirichess", " Guiribanho", " Guirikid", " Guirisexy", " Guirigirl", " Guiriaçai", " Guiripai"];
+var guiri = ["\nGuiritaro19", "\nGuirichess", "\nGuiribanho", "\nGuirikid", "\nGuirisexy", "\nGuirigirl", "\nGuiriaçai", "\nGuiripai"];
 
 client.on('message', message => {
   
