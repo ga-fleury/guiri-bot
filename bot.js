@@ -5,11 +5,14 @@ const client = new Discord.Client();
 // let bot = botToken.bot;
 
 client.login(process.env.TOKEN);
-client.user.setActivity("Digite \"Guirihelp\" "); 
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
+
+// dar comandos ao bot a partir daqui (após login)
+
+client.user.setActivity("Digite \"Guirihelp\" "); 
 
 var guiritasks = ["\nGuiritaro19", "\nGuirichess", "\nGuiribanho", "\nGuirikid", "\nGuirisexy", "\nGuirigirl", "\nGuiriaçai", "\nGuiripai"];
 
