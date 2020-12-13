@@ -8,11 +8,8 @@ client.login(process.env.TOKEN);
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
+  client.user.setActivity("Digite Guirihelp"); 
 });
-
-// dar comandos ao bot a partir daqui (após login)
-
-client.user.activity = "Digite \"Guirihelp\" "; 
 
 var guiritasks = ["\nGuiritaro19", "\nGuirichess", "\nGuiribanho", "\nGuirikid", "\nGuirisexy", "\nGuirigirl", "\nGuiriaçai", "\nGuiripai"];
 
