@@ -12,7 +12,7 @@ client.on('ready', () => {
 
 // dar comandos ao bot a partir daqui (após login)
 
-client.user.setActivity("Digite \"Guirihelp\" "); 
+client.user.activity("Digite \"Guirihelp\" "); 
 
 var guiritasks = ["\nGuiritaro19", "\nGuirichess", "\nGuiribanho", "\nGuirikid", "\nGuirisexy", "\nGuirigirl", "\nGuiriaçai", "\nGuiripai"];
 
