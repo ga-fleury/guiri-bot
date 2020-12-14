@@ -21,7 +21,7 @@ client.on('message', message => {
       client.user.setActivity("Valorant");
       setTimeout(function(){ 
         client.user.setActivity("Digite Guirihelp"); 
-     }, 5000);
+     }, 10000);
     }
     else {
       message.channel.send('~ n ã ã o  m a n o ~  ಠ_ಠ');
