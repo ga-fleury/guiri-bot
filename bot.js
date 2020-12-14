@@ -23,20 +23,20 @@ client.on('message', message => {
         client.user.setActivity("Digite Guirihelp"); 
      }, 10000);
     }
+    if(message.content.includes('kika')) {
+      let mentionMember = message.mentions.members.array();
+      mentionMember = mentionMember[1];
+      if(!mentionMember) {
+        message.channel.send('você não mencionou ninguém pra eu kickar maano ಠ_ಠ');
+        return;
+      }
+      mentionMember.roles.add("788133989630083124");
+      mentionMember.voice.setChannel("788133650351915028");
+      message.channel.send('pronto maano ಠ_ಠ');
+    }
     else {
       message.channel.send('~ n ã ã o  m a n o ~  ಠ_ಠ');
     }
-  }
-
-  if(message.content === 'guirikick' || message.content === 'Guirikick') {
-    let mentionMember = message.mentions.members.first();
-    if(!mentionMember) {
-      message.channel.send('você não mencionou ninguém pra eu kickar maano ಠ_ಠ');
-      return;
-    }
-    mentionMember.roles.add("788133989630083124");
-    mentionMember.voice.setChannel("788133650351915028");
-    message.channel.send('pronto maano ಠ_ಠ');
   }
   
   if (message.content === 'guiribanho' || message.content === 'Guiribanho') {
