@@ -38,6 +38,26 @@ client.on('message', message => {
   if (message.mentions.has(client.user.id) && message.content.includes('banho')) {
     message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/751300367421276231/image0.jpg');
   }
+
+  if (message.mentions.has(client.user.id) && message.content.includes('trabalho')) {
+    message.channel.send('n posso maano to ~~jogando Valorant~~ trabalhando ಠ_ಠ');
+    client.user.setActivity("Valorant"); 
+  }
+
+  if (message.mentions.has(client.user.id) && message.content.includes('santa')) {
+    message.channel.send('n posso maano to ~~jogando Valorant~~ trabalhando ಠ_ಠ');
+    client.user.setActivity("Valorant"); 
+  }
+
+  if (message.mentions.has(client.user.id) && message.content.includes('trabalhando')) {
+    message.channel.send('n posso maano to ~~jogando Valorant~~ trabalhando ಠ_ಠ');
+    client.user.setActivity("Valorant"); 
+  }
+
+  if (message.mentions.has(client.user.id) && message.content.includes('jogando')) {
+    message.channel.send('n posso maano to ~~jogando Valorant~~ trabalhando ಠ_ಠ');
+    client.user.setActivity("Valorant"); 
+  }
  
   if (message.content === 'guirigirl' || message.content === 'Guirigirl') {
     message.channel.send('https://scontent.fsjk2-1.fna.fbcdn.net/v/t1.0-9/58381153_112238396647221_4004605400593727488_n.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_ohc=2hIrNu7F8kQAX9FVg8N&_nc_ht=scontent.fsjk2-1.fna&oh=233e6597ed290f872c4796635e8ef5c3&oe=5FD6C43D');
