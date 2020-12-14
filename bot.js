@@ -16,7 +16,16 @@ var guiritasks = ["\nGuiritaro19", "\nGuirichess", "\nGuiribanho", "\nGuirikid",
 client.on('message', message => {
   
   if (message.mentions.has(client.user.id)) {
-    message.channel.send('~ n ã ã o  m a n o ~  ಠ_ಠ');
+    if(message.content.includes('santa') || message.content.includes('trabalho') || message.content.includes('trabalhando')) {
+      message.channel.send('to ~~jogando Valorant~~ trabalhando duro maano ಠ_ಠ');
+      client.user.setActivity("Valorant");
+      setTimeout(function(){ 
+        client.user.setActivity("Digite Guirihelp"); 
+     }, 5000);
+    }
+    else {
+      message.channel.send('~ n ã ã o  m a n o ~  ಠ_ಠ');
+    }
   }
   
   if (message.content === 'guiribanho' || message.content === 'Guiribanho') {
@@ -37,26 +46,6 @@ client.on('message', message => {
   
   if (message.mentions.has(client.user.id) && message.content.includes('banho')) {
     message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/751300367421276231/image0.jpg');
-  }
-
-  if (message.mentions.has(client.user.id) && message.content.includes('trabalho')) {
-    message.channel.send('n posso maano to ~~jogando Valorant~~ trabalhando ಠ_ಠ');
-    client.user.setActivity("Valorant"); 
-  }
-
-  if (message.mentions.has(client.user.id) && message.content.includes('santa')) {
-    message.channel.send('n posso maano to ~~jogando Valorant~~ trabalhando ಠ_ಠ');
-    client.user.setActivity("Valorant"); 
-  }
-
-  if (message.mentions.has(client.user.id) && message.content.includes('trabalhando')) {
-    message.channel.send('n posso maano to ~~jogando Valorant~~ trabalhando ಠ_ಠ');
-    client.user.setActivity("Valorant"); 
-  }
-
-  if (message.mentions.has(client.user.id) && message.content.includes('jogando')) {
-    message.channel.send('n posso maano to ~~jogando Valorant~~ trabalhando ಠ_ಠ');
-    client.user.setActivity("Valorant"); 
   }
  
   if (message.content === 'guirigirl' || message.content === 'Guirigirl') {
