@@ -23,7 +23,7 @@ client.on('message', message => {
         client.user.setActivity("Digite Guirihelp"); 
      }, 10000);
     }
-    if(message.content.includes('kika')) {
+    else if(message.content.includes('kika')) {
       let mentionMember = message.mentions.members.array();
       mentionMember = mentionMember[1];
       if(!mentionMember) {
@@ -34,7 +34,7 @@ client.on('message', message => {
       mentionMember.voice.setChannel("788133650351915028");
       message.channel.send('pronto maano ಠ_ಠ');
     }
-    if(message.content.includes('me desculpa') || message.content.includes('me desculpe') || message.content.includes('desculpa') || message.content.includes('desculpe')) {
+    else if(message.content.includes('me desculpa') || message.content.includes('me desculpe') || message.content.includes('desculpa') || message.content.includes('desculpe')) {
       message.member.roles.remove("788133989630083124");
       message.member.voice.setChannel("704138130130862082");
     }
