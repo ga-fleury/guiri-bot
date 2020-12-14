@@ -25,12 +25,11 @@ client.on('message', message => {
     }
     if(message.content.includes('kika')) {
       let mentionMember = message.mentions.members.first();
-      let role = message.guild.roles.find(r => r.name === "prisioneiro");
       if(!mentionMember) {
         message.channel.send('você não mencionou ninguém pra eu kickar maano ಠ_ಠ');
         return;
       }
-      mentionMember.roles.add(role);
+      mentionMember.roles.add(prisioneiro);
       mentionMember.setVoiceChannel(guirijail);
       message.channel.send('pronto maano ಠ_ಠ');
     }
