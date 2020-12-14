@@ -34,6 +34,11 @@ client.on('message', message => {
       mentionMember.voice.setChannel("788133650351915028");
       message.channel.send('pronto maano ಠ_ಠ');
     }
+    if(message.content.includes('me desculpa') || message.content.includes('me desculpe') || message.content.includes('desculpa') || message.content.includes('desculpe') || ) {
+      let mentionMember = message.sender;
+      mentionMember.roles.remove("788133989630083124");
+      mentionMember.voice.setChannel("704138130130862082");
+    }
     else {
       message.channel.send('~ n ã ã o  m a n o ~  ಠ_ಠ');
     }
