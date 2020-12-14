@@ -29,7 +29,7 @@ client.on('message', message => {
         message.channel.send('você não mencionou ninguém pra eu kickar maano ಠ_ಠ');
         return;
       }
-      mentionMember.setVoiceChannel(null)
+      mentionMember.voiceChannel.leave();
       message.channel.send('pronto maano ಠ_ಠ');
     }
     else {
