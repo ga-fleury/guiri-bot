@@ -32,7 +32,7 @@ client.on('message', message => {
       var role = message.guild.roles.fetch(role => role.name === "prisioneiro");
       var channel = message.channel.fetch(channel => channel.name === "guirijail");
       mentionMember.roles.add(role);
-      mentionMember.setVoiceChannel(channel);
+      mentionMember.voice.setChannel(channel);
       message.channel.send('pronto maano ಠ_ಠ');
     }
     else {
