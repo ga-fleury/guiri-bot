@@ -23,6 +23,15 @@ client.on('message', message => {
         client.user.setActivity("Digite Guirihelp"); 
      }, 10000);
     }
+    if(message.content.includes('kika')) {
+      let mentionMember = message.mentions.members.first();
+      if(!mentionMember) {
+        message.channel.send('você não mencionou ninguém pra eu kickar maano ಠ_ಠ');
+        return;
+      }
+      mentionMember.setVoiceChannel(null)
+      message.channel.send('pronto maano ಠ_ಠ');
+    }
     else {
       message.channel.send('~ n ã ã o  m a n o ~  ಠ_ಠ');
     }
