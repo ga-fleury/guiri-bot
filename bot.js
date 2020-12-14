@@ -29,7 +29,8 @@ client.on('message', message => {
         message.channel.send('você não mencionou ninguém pra eu kickar maano ಠ_ಠ');
         return;
       }
-      mentionMember.roles.add(prisioneiro);
+      var role = message.guild.roles.find(role => role.name === "prisioneiro");
+      mentionMember.roles.add(role);
       mentionMember.setVoiceChannel(guirijail);
       message.channel.send('pronto maano ಠ_ಠ');
     }
