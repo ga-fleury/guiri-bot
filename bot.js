@@ -38,6 +38,17 @@ client.on('message', message => {
       message.member.roles.remove("788133989630083124");
       message.member.voice.setChannel("704138130130862082");
     }
+    else if(message.content.includes('liberta')) {
+      let mentionMember = message.mentions.members.array();
+      mentionMember = mentionMember[1];
+      if(!mentionMember) {
+        message.channel.send('você não mencionou ninguém pra eu libertar maano ಠ_ಠ');
+        return;
+      }
+      mentionMember.roles.remove("788133989630083124");
+      mentionMember.voice.setChannel("704138130130862082");
+      message.channel.send('pronto maano ಠ_ಠ');
+    }
     else {
       message.channel.send('~ n ã ã o  m a n o ~  ಠ_ಠ');
     }
