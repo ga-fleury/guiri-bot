@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+
 // const botToken = require('./botoken');
 // let bot = botToken.bot;
 
@@ -23,7 +24,7 @@ client.on('message', message => {
         client.user.setActivity("Digite Guirihelp");
       }, 10000);
     }
-    if (message.content.includes('kika')) {
+    else if(message.content.includes('kika')) {
       let mentionMember = message.mentions.members.array();
       mentionMember = mentionMember[1];
       if (!mentionMember) {
@@ -34,10 +35,23 @@ client.on('message', message => {
       mentionMember.voice.setChannel("788133650351915028");
       message.channel.send('pronto maano ಠ_ಠ');
     }
-    if (message.content.includes('me desculpa') || message.content.includes('me desculpe') || message.content.includes('desculpa') || message.content.includes('desculpe')) {
+
+    else if(message.content.includes('me desculpa') || message.content.includes('me desculpe') || message.content.includes('desculpa') || message.content.includes('desculpe')) {
       message.member.roles.remove("788133989630083124");
       message.member.voice.setChannel("704138130130862082");
-    } else {
+    }
+    else if(message.content.includes('liberta')) {
+      let mentionMember = message.mentions.members.array();
+      mentionMember = mentionMember[1];
+      if(!mentionMember) {
+        message.channel.send('você não mencionou ninguém pra eu libertar maano ಠ_ಠ');
+        return;
+      }
+      mentionMember.roles.remove("788133989630083124");
+      mentionMember.voice.setChannel("704138130130862082");
+      message.channel.send('pronto maano ಠ_ಠ');
+    }
+    else {
       message.channel.send('~ n ã ã o  m a n o ~  ಠ_ಠ');
     }
   }
