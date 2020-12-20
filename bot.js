@@ -97,7 +97,7 @@ client.on('message', message => {
   }
 
   if (message.content === 'guirichess' || message.content === 'Guirichess') {
-    message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/790007155456475186/unknown.png');
+    message.channel.send('~ x e q u e - m a t e ~ maano\nhttps://cdn.discordapp.com/attachments/704138130130862081/790007155456475186/unknown.png');
   }
 
   if (message.content === 'guirifail') {
