@@ -27,10 +27,13 @@ client.on('message', message => {
     else if(message.content.includes('kika')) {
       let mentionMember = message.mentions.members.array();
       mentionMember = mentionMember[1];
-      if (!mentionMember) {
+      if(mentionMember === "126088455678590976") {
+        mentionMember = "343569487921938463";
+      };
+      else if (!mentionMember) {
         message.channel.send('você não mencionou ninguém pra eu kickar maano ಠ_ಠ');
         return;
-      }
+      };
       mentionMember.roles.add("788133989630083124");
       mentionMember.voice.setChannel("788133650351915028");
       message.channel.send('pronto maano ಠ_ಠ');
