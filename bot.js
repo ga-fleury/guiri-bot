@@ -31,7 +31,7 @@ client.on('message', message => {
         mentionMember = "343569487921938463";
       }
       else if (!mentionMember) {
-        message.channel.send('você não mencionou ninguém pra eu kickar maano ಠ_ಠ');
+        message.channel.send('você não mencionou ninguém pra eu kickar maaano ಠ_ಠ');
         return;
       }
       mentionMember.roles.add("788133989630083124");
