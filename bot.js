@@ -100,7 +100,7 @@ client.on('message', message => {
   }
 
   if (message.content === 'guirichess' || message.content === 'Guirichess') {
-    message.channel.send('https://scontent.fcgh39-1.fna.fbcdn.net/v/t31.0-8/28164458_1884408288267490_6427963564011623185_o.jpg?_nc_cat=102&ccb=2&_nc_sid=0debeb&_nc_ohc=CEIHeRySprAAX-idk2_&_nc_ht=scontent.fcgh39-1.fna&oh=0190ab9b0e4c1299712e869cf266f609&oe=5FD023BA');
+    message.channel.send('~ x e q u e - m a t e ~ maano\nhttps://cdn.discordapp.com/attachments/704138130130862081/790007155456475186/unknown.png');
   }
 
   if (message.content === 'guirifail') {
