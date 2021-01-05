@@ -12,7 +12,7 @@ client.on('ready', () => {
   client.user.setActivity("Digite Guirihelp");
 });
 
-var guiritasks = ["\nGuiritaro19", "\nGuirichess", "\nGuiribanho", "\nGuirikid", "\nGuirisexy", "\nGuirigirl", "\nGuiriaçai", "\nGuiripai"];
+var guiritasks = ["\nGuiritaro19", "\nGuirichess", "\nGuiribanho", "\nGuirikid", "\nGuirisexy", "\nGuirigirl", "\nGuiriaçai", "\nGuiripai", "\nGuiritalarico"];
 
 client.on('message', message => {
 
@@ -61,8 +61,6 @@ client.on('message', message => {
 
   if (message.content === 'guiribanho' || message.content === 'Guiribanho') {
     message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/751300367421276231/image0.jpg');
-  }
-  
   }
 
   if (message.content === 'guiritalarico' || message.content === 'Guiritalarico') {
