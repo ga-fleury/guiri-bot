@@ -62,6 +62,12 @@ client.on('message', message => {
   if (message.content === 'guiribanho' || message.content === 'Guiribanho') {
     message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/751300367421276231/image0.jpg');
   }
+  
+  }
+
+  if (message.content === 'guiritalarico' || message.content === 'Guiritalarico') {
+    message.channel.send('https://cdn.discordapp.com/attachments/745548538922008596/795862848265125948/image0.png');
+  }
 
   if (message.content === 'guiripai' || message.content === 'Guiripai') {
     message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/786675304668200980/image0.jpg');
