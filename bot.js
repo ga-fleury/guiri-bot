@@ -12,7 +12,7 @@ client.on('ready', () => {
   client.user.setActivity("Digite Guirihelp");
 });
 
-var guiritasks = ["\nGuiritaro19", "\nGuirichess", "\nGuiribanho", "\nGuirikid", "\nGuirisexy", "\nGuirigirl", "\nGuiriaçai", "\nGuiripai", "\nGuiritalarico"];
+var guiritasks = ["\nGuiritaro19", "\nGuirichess", "\nGuiribanho", "\nGuirikid", "\nGuirisexy", "\nGuirigirl", "\nGuiriaçai", "\nGuiripai", "\nGuiritalarico", "\nGuiriestrela", "\nGuiricoala", "\nGuirimodel", "\nGuiriexausto"];
 
 client.on('message', message => {
 
@@ -61,6 +61,22 @@ client.on('message', message => {
 
   if (message.content === 'guiribanho' || message.content === 'Guiribanho') {
     message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/751300367421276231/image0.jpg');
+  }
+  
+  if (message.content === 'guiricoala' || message.content === 'Guiricoala') {
+    message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/796746431636439050/13220832_1135680546495411_8944213597569076026_n.png');
+  }
+  
+  if (message.content === 'guiriexausto' || message.content === 'Guiriexausto') {
+    message.channel.send('https://cdn.discordapp.com/attachments/716395856437444622/796505536827883571/20210106_192824.jpg');
+  }
+  
+  if (message.content === 'guiriestrela' || message.content === 'Guiriestrela') {
+    message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/796746648835063838/13239028_1135680559828743_9019561691973043195_n.png');
+  }
+  
+  if (message.content === 'guirimodel' || message.content === 'Guirimodel') {
+    message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/796740970069622794/Screen_Shot_2021-01-06_at_20.38.44.png');
   }
 
   if (message.content === 'guiritalarico' || message.content === 'Guiritalarico') {
