@@ -12,7 +12,7 @@ client.on('ready', () => {
   client.user.setActivity("Digite Guirihelp");
 });
 
-var guiritasks = ["\nGuiritaro19", "\nGuirichess", "\nGuiribanho", "\nGuirikid", "\nGuirisexy", "\nGuirigirl", "\nGuiriaçai", "\nGuiripai", "\nGuiritalarico", "\nGuiriestrela", "\nGuiricoala", "\nGuirimodel", "\nGuiriexausto"];
+var guiritasks = ["\nGuiritaro19", "\nGuirichess", "\nGuiribanho", "\nGuirikid", "\nGuirisexy", "\nGuirigirl", "\nGuiriaçai", "\nGuiripaijovem", "\nGuiripai", "\nGuiritalarico", "\nGuiriestrela", "\nGuiricoala", "\nGuirimodel", "\nGuiriexausto"];
 
 client.on('message', message => {
 
@@ -83,8 +83,12 @@ client.on('message', message => {
     message.channel.send('https://cdn.discordapp.com/attachments/745548538922008596/795862848265125948/image0.png');
   }
 
-  if (message.content === 'guiripai' || message.content === 'Guiripai') {
+  if (message.content === 'guiripaijovem' || message.content === 'Guiripaijovem') {
     message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/786675304668200980/image0.jpg');
+  }
+  
+  if (message.content === 'guiripai' || message.content === 'Guiripai') {
+    message.channel.send('https://cdn.discordapp.com/attachments/704138130130862081/797967538062753792/video0.mov');
   }
 
   if (message.content === 'guiritaro19' || message.content === 'Guiritaro19') {
